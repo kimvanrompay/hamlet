@@ -1,0 +1,2 @@
+json.extract! job, :id, :title, :summary, :responsibilities, :skills, :education, :experience, :salary, :reporting_structure, :working_conditions, :company_info, :apply_link, :social_link, :location, :job_type, :job_category, :application_deadline, :diversity_statement, :company_culture, :required_languages, :contract_length, :probation_period, :perks_and_benefits, :created_at, :updated_at
+json.url job_url(job, format: :json)

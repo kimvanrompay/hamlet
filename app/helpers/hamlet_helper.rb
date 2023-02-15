@@ -1,0 +1,2 @@
+module HamletHelper
+end

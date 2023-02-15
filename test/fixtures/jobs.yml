@@ -1,0 +1,49 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  summary: MyText
+  responsibilities: MyText
+  skills: MyText
+  education: MyText
+  experience: 1
+  salary: 1
+  reporting_structure: MyText
+  working_conditions: MyText
+  company_info: MyText
+  apply_link: MyString
+  social_link: MyString
+  location: MyString
+  job_type: MyString
+  job_category: MyString
+  application_deadline: 2023-02-15 04:31:43
+  diversity_statement: MyText
+  company_culture: MyText
+  required_languages: MyString
+  contract_length: MyString
+  probation_period: MyString
+  perks_and_benefits: MyText
+
+two:
+  title: MyString
+  summary: MyText
+  responsibilities: MyText
+  skills: MyText
+  education: MyText
+  experience: 1
+  salary: 1
+  reporting_structure: MyText
+  working_conditions: MyText
+  company_info: MyText
+  apply_link: MyString
+  social_link: MyString
+  location: MyString
+  job_type: MyString
+  job_category: MyString
+  application_deadline: 2023-02-15 04:31:43
+  diversity_statement: MyText
+  company_culture: MyText
+  required_languages: MyString
+  contract_length: MyString
+  probation_period: MyString
+  perks_and_benefits: MyText

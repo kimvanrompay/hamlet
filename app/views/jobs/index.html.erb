@@ -1,0 +1,32 @@
+<div class="relative h-screen w-full">
+    <%= render "partials/nav" %>
+  <video class="w-full h-full object-cover" src="https://res.cloudinary.com/the-ruby-lab/video/upload/v1676467195/Ontwerp_zonder_titel_usemha.mp4" autoplay loop muted></video>
+  <div class="absolute inset-0 flex items-center justify-center">
+    <h1 class="text-white text-6xl font-semibold">
+      Welkom bij de zoete vacatures van Hamlet.
+    </h1>
+  </div>
+</div>
+
+<div class="py-32 bg-black">
+  <div class=" flex items-center justify-center">
+    <p class="text-white text-3xl font-semibold w-5/6 p-4 md:text-4xl sm:text-5xl text-left">
+      Het verhaal van Hamlet start in 1934 met een ondernemende bakkerszoon die een passie had voor zoetwaren en chocolade. Inmiddels zijn wij uitgegroeid tot een familiebedrijf met een eigen kwaliteitsafdeling, verpakkingsverwerking, customer service, R&D afdeling, logistiek centrum en productiecentra. Pralines, chocoladefiguren, biscuits en suikerwerk behoren tot onze productspecialiteiten met de focus op kwaliteit, duurzaamheid en innovatie. Zo zorgen wij iedere dag voor (h)eerlijke producten verdeeld over de hele wereld.
+    </p>
+  </div>
+</div>
+<div class="relative h-screen bg-amber-900" class="bg-cover bg-center h-64" style="background-image: url(https://res.cloudinary.com/the-ruby-lab/image/upload/v1676466706/8_memh6u.png); background-repeat: no-repeat;">
+    <h1 class="text-white text-5xl md:text-6xl sm:text-7xl font-semibold pt-10">
+      Wie zoeken wij momenteel?
+    </h1>
+    <p class="text-white text-2xl font-medium p-3">
+      Bekijk onze vacatures en zie welke het best bij jou past.
+    </p>
+  <div class=" flex items-center justify-center">
+    
+    <div class="p-10">
+
+    <%= render @jobs %>
+    
+  </div>
+</div>
