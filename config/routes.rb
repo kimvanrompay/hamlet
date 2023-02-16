@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :jobs
+  root 'jobs#index'
   get 'hamlet/home'
   get 'hamlet/legal'
   get 'hamlet/privacy'
