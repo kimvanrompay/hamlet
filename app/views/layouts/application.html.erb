@@ -13,7 +13,11 @@
     <main class="container mx-auto px-5 text-center">
       <%= yield %>
     </main>
-    <%= render "partials/footer" %>
+    
+    <% unless current_page?('hamlet/supplychaincoordinator') %>
+      <%= render 'partials/footer' %>
+    <% end %>
+
   </body>
       <%= javascript_include_tag "scroll-fade" %>
 </html>
