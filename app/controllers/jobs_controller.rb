@@ -18,6 +18,7 @@ class JobsController < ApplicationController
   # GET /jobs/1/edit
   def edit
   end
+  
 
   # POST /jobs or /jobs.json
   def create

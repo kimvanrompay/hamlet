@@ -7,4 +7,9 @@ class HamletController < ApplicationController
 
   def privacy
   end
+  
+    #
+  def supplychaincoordinator
+  end
+  
 end
